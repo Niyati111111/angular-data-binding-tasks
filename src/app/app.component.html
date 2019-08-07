@@ -1,0 +1,7 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h2>Parent Component</h2>
+  <p>Enter some input text: <input #myInput type="text"></p>
+  <button (click)="testCall(myInput.value)" >Display</button>
+ </div>
+<app-child2 [dynamicData]="dynamicData"></app-child2>
